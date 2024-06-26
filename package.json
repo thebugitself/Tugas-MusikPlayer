@@ -1,0 +1,18 @@
+{
+  "name": "musikplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc --watch",
+    "tw": "npx tailwindcss -i ./src/style/input.css -o ./style.css --watch"
+  },
+  "author": "Akhdan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.5.2"
+  }
+}
